@@ -1,0 +1,40 @@
+body {
+  font-family: "Cairo", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  background-color: lightcoral;
+}
+img {
+  width: 500px;
+  height: 500px;
+  border: #eee solid 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 35%);
+}
+button {
+  outline: none;
+  border: none;
+  background: cornflowerblue;
+  color: white;
+  padding: 10px 40px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.2s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 35%);
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgb(82, 129, 216);
+}
