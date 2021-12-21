@@ -7,9 +7,9 @@ let btnS = document.querySelectorAll("button");
 btnS.forEach((btn) => {
   btn.addEventListener("click", () => {
     if (btn.className === "this") {
-      getThisRandomDog();
-    } else if (btn.className === "that") {
       getThatRandomDog();
+    } else if (btn.className === "that") {
+      getThisRandomDog();
     }
   });
 });
